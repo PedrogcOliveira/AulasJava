@@ -1,3 +1,4 @@
+
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
         //Tipos primitivos
@@ -5,10 +6,11 @@ public class TiposVariaveis {
 
         String meuNome = "Pedro";
         double salarioMinimo = 2500;
-
+        char sexo = 'M';
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal;
+        // Date dataNascimento = new Date(dataNascimento);
 
 
         //Valor constante sempre com final e CAIXA_ALTA
