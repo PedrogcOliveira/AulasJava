@@ -3,6 +3,11 @@ public class Usuario {
         
         SmartTV smartTv = new SmartTV();
 
+        System.out.println(smartTv.canal);
+        smartTv.mudarCanal(21);
+        System.out.println(smartTv.canal);
+
+
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
