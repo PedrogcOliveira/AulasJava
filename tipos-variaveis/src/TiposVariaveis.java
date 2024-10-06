@@ -1,6 +1,6 @@
 
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
+    //public static void main(String[] args) throws Exception {
         //Tipos primitivos
         // estudem a classe String que representa texto na aplcação
 
@@ -17,4 +17,4 @@ public class TiposVariaveis {
         final double VALOR_DE_PI = 3.14;
         //double VALOR_DE_PI = 10.43;
     }
-}
+//}
