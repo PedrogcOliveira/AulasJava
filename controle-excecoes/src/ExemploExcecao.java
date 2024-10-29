@@ -6,11 +6,11 @@ public class ExemploExcecao {
         Number valor = Double.valueOf("a1.75");
         System.out.println(valor);
 
-        try {
-        valor = NumberFormat.getInstance().parse("a1.75");
-        System.out.println(valor);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+        // try {
+        // valor = NumberFormat.getInstance().parse("a1.75");
+        // System.out.println(valor);
+        // } catch (ParseException e) {
+        //     e.printStackTrace();
+        // }
     }
 }
